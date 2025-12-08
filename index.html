@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html> mention of html -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My Machine Learning Model</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <!-- mentions of css -->
+  </head>
+
+  <body>
+    <div class="bubble">
+      <h1>Eco Or No? A Packaging Machine Model 💚</h1>
+      <p>
+        Hold up different garbage items to the camera to test whether or not
+        they are eco-friendly!
+      </p>
+
+      <button type="button" onclick="init()" id="start">Start!</button>
+
+      <div id="webcam-container"></div>
+      <!-- Camera for testing data -->
+      <div id="label-container"></div>
+      <!-- Show the predicted label -->
+    </div>
+
+    <div class="bubble">
+      <h1>About the Creator</h1>
+      <p>
+        Hi! My name is Yashika. I have been coding for about two years now and I
+        plan to continue Computer Science, specifically in Datascience! My
+        hobbies include playing soccer, listening to music, watching F1, and
+        writing! I am passionate about learning and teaching others how to code
+        and tackle math while improving our sustainability.
+      </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <!-- mention of .js -->
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
